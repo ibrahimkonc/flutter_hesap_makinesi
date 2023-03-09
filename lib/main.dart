@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       TableRow(children: [
                         Buttonlar("C", 1, Colors.red),
-                        Buttonlar("⌫", 1, Colors.green),
+                        Buttonlar("⌫", 1, Colors.red.shade300),
                         Buttonlar("/", 1, Colors.orange),
                       ]),
                       TableRow(children: [
@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     TableRow(children: [Buttonlar("*", 1, Colors.orange)]),
                     TableRow(children: [Buttonlar("+", 1, Colors.orange)]),
                     TableRow(children: [Buttonlar("-", 1, Colors.orange)]),
-                    TableRow(children: [Buttonlar("=", 2, Colors.orange)]),
+                    TableRow(children: [Buttonlar("=", 2, Colors.green)]),
                   ]),
                 )
               ],
